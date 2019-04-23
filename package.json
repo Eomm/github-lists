@@ -1,0 +1,36 @@
+{
+  "name": "github-lists",
+  "version": "1.0.0",
+  "description": "This CLI list all the issues and PRs of your repository. Useful to find where you need to intervene",
+  "main": "lib/cli.js",
+  "bin": {
+    "gh-list": "lib/cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Eomm/github-lists.git"
+  },
+  "keywords": [
+    "github",
+    "issue-tracker",
+    "data-science"
+  ],
+  "author": "Manuel Spigolon <behemoth89@gmail.com> (https://github.com/Eomm)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Eomm/github-lists/issues"
+  },
+  "homepage": "https://github.com/Eomm/github-lists#readme",
+  "devDependencies": {
+    "standard": "^12.0.1",
+    "tap": "^12.6.2"
+  },
+  "dependencies": {
+    "@octokit/rest": "^16.25.0",
+    "commist": "^1.1.0",
+    "yargs-parser": "^13.0.0"
+  }
+}

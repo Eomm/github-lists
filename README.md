@@ -1,2 +1,10 @@
 # github-lists
 This CLI list all the issues and PRs of your repository. Useful to find where you need to intervene
+
+
+```
+node lib/cli.js repo-list -o fastify > repo-list.txt
+
+
+node lib/cli issue -c -k TOKEN -r fastify/fast-json-stringify -r fastify/fastify -r fastify/fastify-cli -r fastify/graphics -r fastify/middie -r fastify/fastify-plugin -r fastify/point-of-view -r fastify/fastify-swagger -r fastify/fastify-mongodb -r fastify/fastify-redis -r fastify/fastify-multipart -r fastify/fastify-bearer-auth -r fastify/fastify-bankai -r fastify/fastify-nextjs -r fastify/fastify-websocket -r fastify/fastify-jwt -r fastify/fastify-helmet -r fastify/fastify-auth -r fastify/fastify-leveldb -r fastify/fastify-accepts -r fastify/fastify-accepts-serializer -r fastify/website -r fastify/fastify-static -r fastify/fastify-formbody -r fastify/benchmarks -r fastify/fastify-cookie -r fastify/fastify-env -r fastify/example -r fastify/fastify-example-twitter -r fastify/fastify-register-timeout -r fastify/fastify-caching -r fastify/light-my-request -r fastify/fast-formdata-stringify -r fastify/fastify-postgres -r fastify/fastify-url-data -r fastify/under-pressure -r fastify/fastify-kafka -r fastify/fastify-mysql -r fastify/fastify-compress -r fastify/any-schema-you-like -r fastify/fastify-reply-from -r fastify/fastify-http-proxy -r fastify/fastify-citgm -r fastify/fastify-zipkin -r fastify/help -r fastify/fastify-circuit-breaker -r fastify/fastify-rate-limit -r fastify/fastify-elasticsearch -r fastify/fastify-autoload -r fastify/fastify-routes-stats -r fastify/fastify-sensible -r fastify/fastify-basic-auth -r fastify/docs-chinese -r fastify/fastify-oauth2 -r fastify/fastify-soap-client -r fastify/fastify-cors -r fastify/fastify-routes -r fastify/fluent-schema -r fastify/fastify-jitson -r fastify/fastify-example-todo -r fastify/env-schema -r fastify/fastify-server-timeout -r fastify/safe-regex2 -r fastify/fastify-passport -r fastify/fastify-flash -r fastify/fastify-express -r fastify/releasify > stat.md
+```
